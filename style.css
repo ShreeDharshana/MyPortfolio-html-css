@@ -1,0 +1,219 @@
+*{
+    padding:0;
+    margin:0;
+}
+*{
+    scroll-behavior:smooth;
+}
+.main_section{
+    background-color: #20242d;
+    color: #fff;
+}
+.main_section_header{
+    display:flex;
+    padding:40px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_section_header > h3{
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+.main_section_header > div > ul{
+    display:flex;
+    list-style: none;
+}
+.main_section_header > div > ul > li > a{
+    text-decoration: none;
+    margin:20px;
+    color:#fff;
+}
+.main_section_header > div > ul > li > a:hover{
+    cursor:pointer;
+    color:rgb(7 238 255);
+}
+.body_section{
+    display:flex;
+    /* margin-top:100px; */
+    padding:80px 100px;
+    justify-content:space-around;
+    align-items:center;
+    padding-bottom:177px;
+}
+.info{
+    max-width:500px;
+    /* line-height: 25px; */
+}
+.info > h3:hover{
+    cursor:pointer;
+}
+.name{
+    font-weight:bolder;
+    margin:5px 0;
+    font-size:35px;
+}
+.info > h2 > span{
+    color:rgb(7 238 255);
+}
+/* .shree_photo{
+    border-radius:20;
+} */
+.info > a > i{
+    margin-right:15px;
+    color:rgb(7 238 255);
+}
+.info > a > i:hover{
+    color:white;
+    cursor:pointer;
+}
+.info > p{
+    margin:20px 0;
+}
+.cv_button, .msg_button{
+    padding:10px;
+    background-color:rgb(7 238 255);
+    cursor:pointer;
+    border-radius: 10px;
+    border-color:#20242d;
+    border-style:solid;
+    border-width:2px;
+}
+.hireme_button{
+    padding:10px;
+    background-color:rgb(70, 80, 81);
+    color:white;
+    cursor:pointer;
+    border-radius: 10px;
+    border-color:rgb(7 238 255);
+    border-style:solid;
+    border-width:1px;
+    margin-left:10px;
+}
+.cv_button:hover , .msg_button:hover{
+    background-color:white;
+}
+.hireme_button:hover{
+    background-color:rgb(7 238 255);
+    color:rgb(70, 80, 81);
+}
+.second_section{
+    background-color:#323846;
+    padding:100px 200px;
+    display:flex;
+    align-items:center;
+    color:white;
+    
+}
+.second_section_shree_photo{
+    border-radius: 35%;
+    margin-right:150px;
+    border-color:rgb(7 238 255);
+    border-width:2px;
+    border-style:solid;
+    box-shadow:3px 5px 25px rgb(4, 155, 166);
+}
+.desc > ul > li{
+    list-style:none;
+    margin-top:10px;
+    color:grey;
+}
+.mail{
+    color:grey;
+    font-style:none;
+    text-decoration:none;
+}
+.desc > ul > li > strong{
+    color:white;
+}
+.developer{
+    font-weight:500px;
+}
+.developer > span{
+    color:rgb(7 238 255);
+}
+.third_section{
+    padding-top:50px;
+    padding-bottom:100px;
+    background-color: #20242d;
+    color:white;
+    
+}
+.work_title{
+    text-align:center;
+}
+.work_title > span{
+    color:rgb(7 238 255);
+}
+.myworks{
+    display:flex;
+    justify-content:center;
+}
+.seework{
+    text-decoration:none;
+    margin-top:10px;
+    color:rgb(7 238 255);
+}
+.seework:hover{
+    color:rgb(241, 217, 79);
+}
+.ui, .front, .back{
+    background-color: #323846;
+    padding:30px;
+    max-width:200px;
+    text-align:left;
+    margin-top:40px;
+    margin-left:50px;
+    border-radius:20px;
+    
+}
+.myworks > div:hover{
+    background-color: black;
+}
+.myworks > div > p, .myworks > div > h3, .myworks > p > a{
+    margin-top:10px;
+}
+.myworks > div > i{
+    background-color: rgb(7 238 255);
+    padding:10px;
+    color:black;
+    border-radius:50%;
+}
+.myworks > div > i:hover{
+    cursor:pointer;
+    background-color: black;
+    color:white;
+}
+.myworks > div > p{
+    color:grey;
+}
+.fourth_section{
+    padding:50px;
+    text-align:center;
+    background-color: #323846;
+    color:white;
+}
+.fourth_section > h2 > span{
+    color:rgb(7 238 255);
+}
+.form > form input, textarea{
+    margin-top:15px;
+    width:350px;
+    padding:8px;
+    border-radius:2px;
+    outline:none;
+    border:none;
+    background-color: #20242d;
+    color:white;
+    resize:none;
+}
+footer{
+    background-color: #323846;
+    text-align:center;
+    color:white;
+    font-size: 14px;
+    padding:10px;
+}
+footer > p > a{
+    text-decoration:none;
+    color:rgb(7 238 255);
+}
